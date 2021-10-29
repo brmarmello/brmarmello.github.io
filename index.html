@@ -1,4 +1,5 @@
 <!-- Requisitos
+PARTE I
 Seu Portfólio Web deve ter as seguintes informações:
 
 1 Seu nome completo;
@@ -8,7 +9,18 @@ Seu Portfólio Web deve ter as seguintes informações:
 5 Um link interno para a sua foto;
 6 Um link externo para algum blog de que você goste, que abra em uma nova aba;
 7 Partes do seu portfólio destacadas com negrito e/ou itálico;
-8 Um índice com links internos para as diferentes seções do seu portfólio. -->
+8 Um índice com links internos para as diferentes seções do seu portfólio. 
+
+PARTE II
+Seu Portfólio Web deve ser estilizado usando as informações a seguir:
+
+1 Defina fontes diferentes para o seu nome e para a descrição que você criou;
+2 Defina uma cor base de background do seu Portfólio Web ;
+3 Altere o estilo das tags que você usou para destacar algumas informações, como 4 4 sua nacionalidade e a cidade/estado onde mora;
+5 Coloque tamanhos diferentes para os elementos da lista de habilidades que você 
+6criou. Lembre-se de usar classes para cada um dos elementos;
+
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +29,25 @@ Seu Portfólio Web deve ter as seguintes informações:
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio bmDev</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <h1>Bruno Marmello Moreira</h1>
+
     <img
+      id="img"
       src="images/bmgi3x4.jpeg"
       width="300px"
       alt="Imagem de Bruno Marmello."
@@ -29,10 +56,15 @@ Seu Portfólio Web deve ter as seguintes informações:
     <hr />
     <h4>Olá, quer economizar? Pode me chamar de BM.</h4>
     <p>
-      ♫ <i>Sou brasileiro com muito orgulho... com muiito amor...</i> ♬ Nasci e
-      moro em Niteroi, no <s>Rio</s> Hell de Janeiro. Formado em Administração,
-      pós graduado em Marketing e atualmente estudante de Desenvolvimento Web na
-      <strong>Trybe</strong>.
+      <strong class="orange">♫♬♫</strong>
+      <strong
+        ><i>Sou brasileiro com muito orgulho... com muiito amor...</i></strong
+      >
+      <strong class="orange">♬♫♬</strong> Nasci e moro em
+      <strong>Niteroi</strong>, no <s>Rio</s>
+      <strong class="red"> Hell</strong> <strong>de Janeiro</strong>. Formado em
+      Administração, pós graduado em Marketing e atualmente estudante de
+      Desenvolvimento Web na <strong class="trybe-green">Trybe</strong>.
     </p>
     <p>
       Hoje me encontro em transição de carreira, migrando da área comercial para
@@ -47,11 +79,13 @@ Seu Portfólio Web deve ter as seguintes informações:
     <h2>Algumas Habilidades que Possuo:</h2>
     <hr />
     <ul>
-      <li>Comunicação;</li>
-      <li>Trabalho em Equipe;</li>
-      <li><strong>***Resiliência***</strong>;</li>
-      <li>Comprometimento;</li>
-      <li>E algumas coisas que vou deixar você descobrir. :-)</li>
+      <li class="comunic">Comunicação;</li>
+      <li class="cowork">Trabalho em Equipe;</li>
+      <li><strong class="resil">***Resiliência***</strong>;</li>
+      <li class="comp">Comprometimento;</li>
+      <li class="outras">
+        E algumas coisas que vou deixar você descobrir. :-)
+      </li>
     </ul>
     <p>
       O destaque para <strong>***Resiliência***</strong> pode até dispensar
@@ -62,7 +96,7 @@ Seu Portfólio Web deve ter as seguintes informações:
     o desenvolvedor mais muuunnniiiitttooo dessa Tribo!<br /><br />
     <a href="https://blog.betrybe.com/" target="_blank">CLIQUE AQUI</a> para
     conhecer um pouco mais sobre programação e tecnologia no geral.
-    <strong>Aprecie Sem Moderação!</strong>
+    <strong class="trybe-green">Aprecie Sem Moderação!</strong>
     <hr />
     <h2>
       Abaixo um índice com links para as diferentes seções do meu portfólio.
