@@ -1,0 +1,84 @@
+h1 {
+  font-family: 'Alfa Slab One', 'cursive', sans-serif;
+  color: #000000;
+  letter-spacing: 2px;
+}
+h2 {
+  font-family: 'Montserrat', 'cursive', sans-serif;
+  color: #036b52;
+}
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #11a36a;
+}
+#img {
+  border-radius: 50%;
+  width: 160px;
+}
+body {
+  font-family: 'Montserrat', 'cursive', sans-serif;
+  background-color: rgb(212, 212, 212);
+}
+p,
+li,
+lo {
+  font-size: 16px;
+  color: #475550;
+}
+.orange {
+  color: orangered;
+}
+.trybe-green {
+  color: #11a36a;
+}
+.red {
+  color: red;
+}
+.comunic {
+  font-size: 20px;
+}
+.cowork {
+  font-size: 16px;
+}
+.resil {
+  font-size: 24px;
+}
+.comp {
+  font-size: 22px;
+}
+.outras {
+  font-size: 14px;
+}
+.hero-title {
+  color: #0a7e51;
+  line-height: 55px;
+  font-weight: 600;
+  font-size: 45px;
+}
+.section-title {
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+.testimonial-name {
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.button {
+  width: 400px;
+  background-color: #11a36a;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #0a7e51;
+}
