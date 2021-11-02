@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-family: 'Alfa Slab One', 'cursive', sans-serif;
-  color: #000000;
-  letter-spacing: 2px;
+  color: #036b52;
+  letter-spacing: 4px;
+  font-size: 60px;
 }
 h2 {
   font-family: 'Montserrat', 'cursive', sans-serif;
@@ -10,26 +15,32 @@ h2 {
 h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #11a36a;
-}
-#img {
-  border-radius: 50%;
-  width: 160px;
+  padding: 10px 0;
 }
 body {
   font-family: 'Montserrat', 'cursive', sans-serif;
-  background-color: rgb(212, 212, 212);
+  background-color: #f5f5f5;
 }
 p,
 li,
 lo {
   font-size: 16px;
   color: #475550;
+  line-height: 1.5;
 }
-.orange {
-  color: orangered;
+#img {
+  border-radius: 50%;
+  width: 400px;
+  vertical-align: middle;
+}
+#name {
+  text-align: center;
 }
 .trybe-green {
   color: #11a36a;
+}
+.orange {
+  color: orangered;
 }
 .red {
   color: red;
@@ -49,36 +60,28 @@ lo {
 .outras {
   font-size: 14px;
 }
-.hero-title {
-  color: #0a7e51;
-  line-height: 55px;
-  font-weight: 600;
-  font-size: 45px;
+.eu-mim {
+  margin: 10px;
+  max-width: 80%;
+  display: inline-flex;
+  padding: 30px 70px;
+  vertical-align: middle;
 }
-.section-title {
-  line-height: 30px;
-  font-weight: 600;
-  font-size: 28px;
-  text-align: center;
+.eu-left {
+  float: left;
+  padding: 30px 70px;
 }
-.testimonial-name {
-  line-height: 20px;
-  font-weight: 600;
-  font-size: 14px;
+.eu-right {
+  float: right;
+  padding: 30px 40px;
 }
-.button {
-  width: 400px;
-  background-color: #11a36a;
-  color: white;
-  padding: 10px 30px;
-  font-weight: 700;
-  text-decoration: none;
-  border-radius: 4px;
-  text-align: center;
-  display: block;
-  margin: 20px auto;
-  font-size: 18px;
+.habilidades {
+  padding: 10px 0 30px;
 }
-.button:hover {
-  background-color: #0a7e51;
+.indice {
+  padding: 10px 0 30px;
 }
+
+/**
+
+**/

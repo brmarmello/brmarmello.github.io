@@ -2,23 +2,24 @@
 PARTE I
 Seu Portfólio Web deve ter as seguintes informações:
 
-1 Seu nome completo;
-2 Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
-3 Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
-4 Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha;
-5 Um link interno para a sua foto;
-6 Um link externo para algum blog de que você goste, que abra em uma nova aba;
-7 Partes do seu portfólio destacadas com negrito e/ou itálico;
-8 Um índice com links internos para as diferentes seções do seu portfólio. 
+OK.1 Seu nome completo;
+OK.2 Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
+OK.3 Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
+OK.4 Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha;
+OK.5 Um link interno para a sua foto;
+OK.6 Um link externo para algum blog de que você goste, que abra em uma nova aba;
+OK.7 Partes do seu portfólio destacadas com negrito e/ou itálico;
+OK.8 Um índice com links internos para as diferentes seções do seu portfólio. 
 
 PARTE II
 Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
-1 Defina fontes diferentes para o seu nome e para a descrição que você criou;
-2 Defina uma cor base de background do seu Portfólio Web ;
-3 Altere o estilo das tags que você usou para destacar algumas informações, como 4 4 sua nacionalidade e a cidade/estado onde mora;
-5 Coloque tamanhos diferentes para os elementos da lista de habilidades que você 
-6criou. Lembre-se de usar classes para cada um dos elementos;
+OK.1 Defina fontes diferentes para o seu nome e para a descrição que você criou;
+OK.2 Defina uma cor base de background do seu Portfólio Web ;
+OK.3 Altere o estilo das tags que você usou para destacar algumas informações, como 4 4 sua nacionalidade e a cidade/estado onde mora;
+OK.5 Coloque tamanhos diferentes para os elementos da lista de habilidades que você 
+criou.
+Lembre-se de usar classes para cada um dos elementos!
 
 -->
 
@@ -41,95 +42,117 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
       href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
     />
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>Bruno Marmello Moreira</h1>
 
-    <img
-      id="img"
-      src="images/bmgi3x4.jpeg"
-      width="300px"
-      alt="Imagem de Bruno Marmello."
-    />
-    <h2>Sobre Mim (he/his/ele/dele)</h2>
+  <body>
+    <div>
+      <h1 id="name">Bruno Marmello Moreira</h1>
+    </div>
+
+    <div class="eu-mim">
+      <div class="eu-left">
+        <img
+          id="img"
+          src="images/bmgi3x4.jpeg"
+          width="800px"
+          alt="Imagem de Bruno Marmello."
+        />
+      </div>
+
+      <div class="eu-right">
+        <h2>Sobre Mim (he/his/ele/dele)</h2>
+        <hr />
+        <h4>Olá, quer economizar? Pode me chamar de BM.</h4>
+
+        <p>
+          <strong class="orange">♫♬♫</strong>
+          <strong
+            ><i
+              >Sou brasileiro com muito orgulho... com muiito amor...</i
+            ></strong
+          >
+          <strong class="orange">♬♫♬</strong> Nasci e moro em
+          <strong>Niteroi</strong>, no <s>Rio</s>
+          <strong class="red"> Hell</strong> <strong>de Janeiro</strong>.
+          Formado em Administração, pós graduado em Marketing e atualmente
+          estudante de Desenvolvimento Web na
+          <strong class="trybe-green">Trybe</strong>.<br /><br />Hoje me
+          encontro em transição de carreira, migrando da área comercial para a
+          de tecnologia. Após 15 anos de experiência em gestão na área comercial
+          (Marketing e Vendas), assim como em Administração de Empresas, decidi
+          sair da zona de conforto e partir em busca de novos desafios e
+          conquistas.<br /><br />Quer saber o final dessa história? Acompanhe as
+          atualizações deste e de outros portfolios
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h2>Algumas Habilidades que Possuo:</h2>
+    </div>
+
     <hr />
-    <h4>Olá, quer economizar? Pode me chamar de BM.</h4>
-    <p>
-      <strong class="orange">♫♬♫</strong>
-      <strong
-        ><i>Sou brasileiro com muito orgulho... com muiito amor...</i></strong
-      >
-      <strong class="orange">♬♫♬</strong> Nasci e moro em
-      <strong>Niteroi</strong>, no <s>Rio</s>
-      <strong class="red"> Hell</strong> <strong>de Janeiro</strong>. Formado em
-      Administração, pós graduado em Marketing e atualmente estudante de
-      Desenvolvimento Web na <strong class="trybe-green">Trybe</strong>.
-    </p>
-    <p>
-      Hoje me encontro em transição de carreira, migrando da área comercial para
-      a de tecnologia. Após 15 anos de experiência em gestão na área comercial
-      (Marketing e Vendas), assim como em Administração de Empresas, decidi sair
-      da zona de conforto e partir em busca de novos desafios e conquistas.
-    </p>
-    <p>
-      Quer saber o final dessa história? Acompanhe as atualizações deste e de
-      outros portfolios
-    </p>
-    <h2>Algumas Habilidades que Possuo:</h2>
-    <hr />
-    <ul>
-      <li class="comunic">Comunicação;</li>
-      <li class="cowork">Trabalho em Equipe;</li>
-      <li><strong class="resil">***Resiliência***</strong>;</li>
-      <li class="comp">Comprometimento;</li>
-      <li class="outras">
-        E algumas coisas que vou deixar você descobrir. :-)
-      </li>
-    </ul>
-    <p>
-      O destaque para <strong>***Resiliência***</strong> pode até dispensar
-      comentários para os mais observadores. É a habilidade que mais me orgulho
-      e mais me apoio para ter sucesso nessa jornada.
-    </p>
-    <a href="/images/bmgi3x4.jpeg" target="_blank">CLIQUE AQUI</a> e veja quem é
-    o desenvolvedor mais muuunnniiiitttooo dessa Tribo!<br /><br />
-    <a href="https://blog.betrybe.com/" target="_blank">CLIQUE AQUI</a> para
-    conhecer um pouco mais sobre programação e tecnologia no geral.
-    <strong class="trybe-green">Aprecie Sem Moderação!</strong>
-    <hr />
+
+    <div class="habilidades">
+      <ul>
+        <li class="comunic">Comunicação;</li>
+        <li class="cowork">Trabalho em Equipe;</li>
+        <li><strong class="resil">***Resiliência***</strong>;</li>
+        <li class="comp">Comprometimento;</li>
+        <li class="outras">
+          E algumas coisas que vou deixar você descobrir. :-)
+        </li>
+      </ul>
+      <p>
+        O destaque para <strong>***Resiliência***</strong> pode até dispensar
+        comentários para os mais observadores. É a habilidade que mais me
+        orgulho e mais me apoio para ter sucesso nessa jornada.
+      </p>
+      <a href="/images/bmgi3x4.jpeg" target="_blank">CLIQUE AQUI</a> e veja quem
+      é o desenvolvedor mais muuunnniiiitttooo dessa Tribo!<br /><br />
+      <a href="https://blog.betrybe.com/" target="_blank">CLIQUE AQUI</a> para
+      conhecer um pouco mais sobre programação e tecnologia no geral.
+      <strong class="trybe-green">Aprecie Sem Moderação!</strong>
+    </div>
+
     <h2>
       Abaixo um índice com links para as diferentes seções do meu portfólio.
     </h2>
-    <ol>
-      <li>
-        <a
-          href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-01-fundamentos"
-          target="_blank"
-          >Módulo 01 - Fundamentos;
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-02-des-front-end"
-          target="_blank"
-          >Módulo 02 - Des Front End;
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-03-back-end"
-          target="_blank"
-          >Módulo 03 - Back-End;
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-04-computer-science"
-          target="_blank"
-          >Módulo 04 - Computer Science.
-        </a>
-      </li>
-    </ol>
+
+    <hr />
+
+    <div class="indice">
+      <ol>
+        <li>
+          <a
+            href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-01-fundamentos"
+            target="_blank"
+            >Módulo 01 - Fundamentos;
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-02-des-front-end"
+            target="_blank"
+            >Módulo 02 - Des Front End;
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-03-back-end"
+            target="_blank"
+            >Módulo 03 - Back-End;
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/brmarmello/exercicios-trybe/tree/master/modulo-04-computer-science"
+            target="_blank"
+            >Módulo 04 - Computer Science.
+          </a>
+        </li>
+      </ol>
+    </div>
   </body>
 </html>
